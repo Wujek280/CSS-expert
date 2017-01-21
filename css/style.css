@@ -14,3 +14,16 @@ body {
 #truskawka2 {
     float:right;
 }
+
+span:nth-child(5) {
+    background-color: royalblue;
+    clear:both;
+    
+}
+
+p:last-child {
+    background-color: royalblue;
+    clear:right;
+    
+}
+
