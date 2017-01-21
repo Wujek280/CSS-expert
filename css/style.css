@@ -1,4 +1,16 @@
 body {
     font-family: Lato;
+/*
+    background-color: #303030;
+    color: white;
+*/
 }
 
+
+#truskawka {
+    float:left;
+}
+
+#truskawka2 {
+    float:right;
+}
