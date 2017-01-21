@@ -1,0 +1,17 @@
+body {
+    font-family: Lato;
+}
+
+#elementy-inline-block li {
+    background-color: #303030;
+    color: white;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    text-align: center;
+}
+
+#elementy-display-none {
+    display: none;
+}
