@@ -1,0 +1,40 @@
+body {
+    font-family: Lato;
+    color:blue;
+    font-size: 30px;    
+}
+
+.box {
+    background-color: #303030;
+    width: 150px;
+    height: 150px;
+    margin: auto;
+    margin-top:20px;
+    margin-bottom:20px;
+}
+
+#box1:hover {
+    width: 300px;
+}
+
+#box2:hover {
+    height: 300px;
+}
+
+#box3:hover {
+    width: 300px;
+    height: 300px;
+    transform: rotate(725deg);
+    color:white;
+    text-align: center;
+}
+
+#box1 {background-color: #f00;}
+#box2 {background-color: #0f0;}
+#box3 {background-color: #00f;}
+
+#box1 {transition: linear .75s;}
+#box2 {transition: linear .75s;}
+#box3 {transition: linear .5s;}
+
+
