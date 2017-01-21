@@ -1,0 +1,27 @@
+#tab {
+    margin: auto;
+    max-width: 500px;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+    div.klient:nth-child(even) {
+    background-color: olive;
+}
+
+div[suma] {
+    background-color: darkolivegreen
+}
+
+div[suma="2000"] {
+    background-color:red
+}
+
+div[detaliczny*="tak"] {
+    color:aqua
+}
+
+div[suma$="60"]{
+    background-color: crimson;
+}
+
