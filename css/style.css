@@ -1,19 +1,27 @@
 body {
     font-family: Lato;
-    padding: 20px;
-    background-color: #303030;
 }
 
-#box {
-    width: 100px;
-    height: 100px;
-    border: 2px dashed #303030;
-    background-color: limegreen;
+.box {
+    background-color: #303030;
+    width: 150px;
+    height: 150px;
+    margin: 5px;
+}
+
+.box:hover {
     transition: 0.3s;
 }
 
-#box:hover {
-    height: 200px;
-    width: 200px;
-    cursor: pointer;
+#box1:hover {
+    width: 300px;
+}
+
+#box2:hover {
+    height: 300px;
+}
+
+#box3:hover {
+    width: 300px;
+    height: 300px;
 }
