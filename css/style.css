@@ -2,3 +2,13 @@ body {
     font-family: Lato;
 }
 
+#tlo-obrazek {
+    min-width: 200px;
+    height: 200px;
+    background: url("https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Fragaria_Fruit_Close-up.jpg/200px-Fragaria_Fruit_Close-up.jpg");
+    background-repeat: no-repeat;
+    background-size: 70% 70%;
+    background-position: top center;
+    background-attachment: fixed;
+    color: lime;
+}
