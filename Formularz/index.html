@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <title>DDD</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'> </head>
+
+<body>
+    <form action="https://formspree.io/wujek5151@gmail.com" id="myform" method="POST">
+       
+        <label for="imie">Imię : </label>
+        <br>
+        <input id="imie" type="text" placeholder="John" />
+        <br>
+        <label for="nazwisko">Nazwisko : </label>
+        <br>
+        <input id="nazwisko" type="text" placeholder="Smith" />
+        <br>
+        <label for="email">Mail : </label>
+        <br>
+        <input id="email" type="email" placeholder="type@yourmail.com" />
+        <br>
+        <br>
+        <label for="tel">Telefon :</label>
+        <br>
+        <input id="tel" type="tel" placeholder="+ 48 790 432 142" />
+        <br>
+        <br>
+        <label for="woj">Wybierz województwo : </label>
+        <br>
+        <select id="woj" name="woj" style="background-color: #2B4a64;color:white;">
+            <option value="1">Dolnośląskie</option>
+            <option value="2">Kujawsko-Pomorskie</option>
+            <option value="3">Lubelskie</option>
+            <option value="4">Lubuskie</option>
+            <option value="5">Łódzkie</option>
+            <option value="6">Małopolskie</option>
+            <option value="7">Mazowieckie</option>
+            <option value="8">Opolskie</option>
+            <option value="9">Podkarpackie</option>
+            <option value="10">Podlaskie</option>
+            <option value="11">Pomorskie</option>
+            <option value="12">Śląskie</option>
+            <option value="13">Świętokrzyskie</option>
+            <option value="14">Warmińsko-Mazurskie</option>
+            <option value="15">Wielkopolskie</option>
+            <option value="16">Zachodniopomorskie</option>
+        </select>
+        
+        <br>
+        <br>
+        <label  id="male" for="plec">Wybierz płeć : </label>
+        <br>
+        <input type="radio" value="mezczyzna" name="plec" />Mężczyzna
+        <br>
+        
+        <input type="radio" value="kobieta" name="plec" />Kobieta
+        <br>
+        <br>Wiadomość:
+        <br>
+        <textarea id="msg" name="message" form="myform" style="color:white">  </textarea>
+        <br>
+        <input type="checkbox" name="zgoda" id="zgoda"> Wyrażam zgode na przetwarzanie moich danych
+        <br>
+        <br>
+        <input type="submit" value="SEND"> </form>
+</body>
+
+</html>
