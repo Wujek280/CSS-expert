@@ -1,0 +1,23 @@
+#p1::before {
+    content: "Przed elementem ";
+    color: blue;
+}
+
+#p2::after {
+    content: " Za drugim paragrafem elo 3.2.1 ";
+    color: indianred;
+}
+
+#p3::first-letter {
+    color: deeppink;
+    text-transform: uppercase;
+}
+
+#p4::first-line {
+    background-color: aqua;
+}
+
+p::selection {
+    background-color: yellow;
+}
+
