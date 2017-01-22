@@ -1,11 +1,40 @@
-* {	
-	font-family: Lato;
+* {
+    box-sizing: border-box;
+    font-family: Lato, sans-serif;
     background-color: lightgray;
     font-size: 0;
 }
 
-body {
+.box {
+    height: 300px;
+    padding: 50px;
+    width: 25%;
     font-size: 16px;
-	color: #303030;
+    float: left;
+    border: 10px solid #303030;
 }
 
+
+
+
+@media (max-width: 786px) {
+    .box{
+        width: 50%;
+        background-color: ivory;
+    }
+}
+
+@media (max-width: 992px) and (min-width:786px)
+{
+    .box{
+        width: 100%;
+    }
+}
+
+
+
+
+.h {
+    font-size: 2em;
+    font-weight: bolder;
+}
